@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 8px;
+  /* @apply h-[6px] w-1 lg:w-2; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  z-index: 10;
+  border-radius: 5px;
+  background: #777879;
+  /* @apply z-10 rounded-[5px] bg-blue-primary; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF7F48;
+  /* @apply bg-blue-hover; */
+}
